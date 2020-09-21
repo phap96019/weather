@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.Home-background {
+  height: 1000px;
+  background-color: #1e213a;
+}
+
+.Home-background2 {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.Home-background2::before {
+  content: "";
+  height: auto;
+  background-image: url(./img/Cloud-background.png);
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.Home-container {
+  color: aliceblue;
+  position: relative;
+  width: 100%;
+  margin: 13px;
+}
+
+.Home-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Home-button-search {
+  background-color: #6e707a;
+  color: #e7e7eb;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.Home-NavigatorIcon {
+  width: 37px;
+  height: 37px;
 }
